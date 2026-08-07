@@ -27,7 +27,6 @@ wheels/
 *.egg
 
 # Virtual environments
-.env
 .venv
 env/
 venv/
@@ -54,7 +53,6 @@ htmlcov/
 credentials.json
 service-account*.json
 *-key.json
-.env.*
 !.env.example
 
 # Logs and temp files
@@ -71,10 +69,10 @@ yarn-error.log*
 
 # Editors / IDEs
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
 
 # Agent / skill local artifacts
 .agents/cache/
+config.bat
