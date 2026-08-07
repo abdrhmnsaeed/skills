@@ -20,6 +20,9 @@ metrics time series (at 5-minute intervals) and classifies the traffic pattern
 to recommend the optimal dynamic PromQL alerting threshold strategy.
 """
 
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import json
 import math
